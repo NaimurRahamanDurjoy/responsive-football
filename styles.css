@@ -103,14 +103,9 @@ main{
     padding:3px 5px;
     
 }
-
-.last-button a:hover{
-    background-color:#2315ee;
-    width:25px;
-    transition: 3s;
-}
-
-
+/*--------------------------- 
+       Footer Styles 
+---------------------------*/
 footer{
     margin-top: 30px;
 }
@@ -152,7 +147,7 @@ footer{
     }
 
 /* For tablet */
-@media only screen and (min-width:688px) and (max-width:992px){
+@media only screen and (min-width:689px) and (max-width:992px){
     .all-players{
         display:grid;
         grid-template-columns: repeat(2,1fr)
