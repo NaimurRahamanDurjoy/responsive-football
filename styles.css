@@ -1,0 +1,161 @@
+/* Common proparty styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    
+}
+
+.container{
+    background-color: rgb(5, 178, 247);
+    
+    
+}
+.top-section{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.button-watch{
+    text-decoration:none;
+    color:#ffffff;
+    background-color:orangered;
+    padding:10px 24px;
+    
+
+}
+.top-section a:hover{
+    background-color:rgb(13, 122, 136);
+    transition: 2s;
+    
+}
+
+h2{
+    color:white;
+    font-size:40px;
+}
+/* .................... 
+      Top-logo Styles 
+   ....................*/
+
+.animation img{
+    width: 500px;
+    height: 400px;
+    padding-top:10px;
+
+    
+    
+}
+/*-------------------------------
+      Used zoom out transtion
+ -------------------------------- */
+.animation:hover img{
+    transform: scale(1.2);
+    transition:2s;
+}
+
+
+/* main styles */
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.all-players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+    justify-content: center; 
+}
+.display-settings{
+    width: 852px;
+}
+
+.top-players{
+    box-shadow: 2px 3px 8px 10px rgb(245, 230, 230);
+    
+}
+    
+
+.player img{
+    width:250px;
+    height:180px;
+    padding:10px;
+    
+}
+.player-description h3,p{
+    padding-left:10px;
+    color:black;
+}
+
+
+
+
+
+
+.button{
+    text-decoration: none;
+    color:white;
+    border:2px solid #2315ee; 
+    padding:3px 5px;
+    
+}
+
+.last-button a:hover{
+    background-color:#2315ee;
+    width:25px;
+    transition: 3s;
+}
+
+
+footer{
+    margin-top: 30px;
+}
+.top-footer{
+    text-align:center;
+    
+}
+.footer-image img{
+    width:200px;
+}
+
+.footer-icons a{
+    text-decoration:none;
+    color:rgb(22, 7, 90);
+    font-size:25px;
+}
+
+.icon-styles{
+    margin-right:10px;
+    border-radius:35px;
+    padding:10px;
+    box-shadow: 1px 2px 5px 4px gray;
+}
+
+/* media query part */
+/* For mobile phone */
+
+@media (max-width:688px){
+    .top-section {
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .all-players{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+        
+    }
+
+/* For tablet */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .all-players{
+        display:grid;
+        grid-template-columns: repeat(2,1fr)
+       
+    }
+}
