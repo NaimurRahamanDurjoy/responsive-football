@@ -10,9 +10,7 @@ body{
 ---------------------------- */
 .container{
     background-color: rgb(5, 178, 247);
-    
-    
-    
+
 }
 .top-section{
     display:flex;
@@ -88,7 +86,7 @@ main{
     padding:10px;
     
 }
-.player-description h3,p{
+.player-details h3,p{
     padding-left:10px;
     color:black;
 }
